@@ -6,7 +6,7 @@ use leptos::prelude::*;
 pub fn TimelineSection(entries: &'static [TimelineEntry]) -> impl IntoView {
     view! {
         <section id="experience" class="section-shell">
-            <SectionTitle class="mb-10">"Education / Experience"</SectionTitle>
+            <SectionTitle class="mb-10">"Education"</SectionTitle>
 
             <div class="relative pl-12">
                 <div class="space-y-8">
