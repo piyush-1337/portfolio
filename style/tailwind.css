@@ -1,0 +1,172 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --radius: 0.75rem;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: rgb(9 12 24);
+    color: rgb(241 245 249);
+    font-family: "Plus Jakarta Sans", "Inter", sans-serif;
+  }
+}
+
+@layer components {
+  .portfolio-bg {
+    background-color: rgb(9 12 24);
+  }
+
+  .section-shell {
+    padding-bottom: 5rem;
+    padding-top: 3.5rem;
+  }
+
+  @media (min-width: 768px) {
+    .section-shell {
+      padding-bottom: 6rem;
+      padding-top: 5rem;
+    }
+  }
+
+  .nav-float-wrap {
+    background-color: rgb(15 23 42 / 0.78);
+    border: 1px solid rgb(148 163 184 / 0.28);
+    border-radius: 999px;
+    box-shadow: 0 10px 32px rgb(2 6 23 / 0.45);
+    backdrop-filter: blur(12px);
+  }
+
+  .nav-float-link {
+    border-radius: 999px;
+    color: rgb(148 163 184);
+    display: flex;
+    font-weight: 600;
+    justify-content: center;
+    padding: 0.5rem 0.4rem;
+    text-align: center;
+    transition: background-color 180ms ease, color 180ms ease, box-shadow 180ms ease,
+      border-color 180ms ease;
+    border: 1px solid transparent;
+  }
+
+  .nav-float-link:hover {
+    background-color: rgb(30 41 59 / 0.75);
+    color: rgb(241 245 249);
+  }
+
+  .nav-float-link.is-active {
+    background-color: rgb(8 47 73 / 0.95);
+    border-color: rgb(56 189 248 / 0.65);
+    color: rgb(240 249 255);
+    /* box-shadow: 0 0 0 1px rgb(56 189 248 / 0.25), 0 8px 18px rgb(2 132 199 / 0.35); */
+  }
+
+  .action-link {
+    background-color: rgb(12 74 110 / 0.25);
+    border: 1px solid rgb(125 211 252 / 0.35);
+    border-radius: 0.5rem;
+    color: rgb(224 242 254);
+    display: inline-block;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    transition: background-color 160ms ease;
+  }
+
+  .action-link:hover {
+    background-color: rgb(7 89 133 / 0.45);
+  }
+
+  .icon-action {
+    align-items: center;
+    background-color: rgb(12 74 110 / 0.25);
+    border: 1px solid rgb(125 211 252 / 0.35);
+    border-radius: 0.5rem;
+    color: rgb(224 242 254);
+    display: inline-flex;
+    height: 2.5rem;
+    justify-content: center;
+    transition: background-color 160ms ease;
+    width: 2.5rem;
+  }
+
+  .icon-action:hover {
+    background-color: rgb(7 89 133 / 0.45);
+  }
+
+  .location-chip {
+    align-items: center;
+    border: 1px solid rgb(148 163 184 / 0.25);
+    border-radius: 0.5rem;
+    color: rgb(203 213 225);
+    display: inline-flex;
+    gap: 0.375rem;
+    padding: 0.5rem 0.75rem;
+  }
+
+  .skill-chip {
+    align-items: center;
+    display: inline-flex;
+    gap: 0.4rem;
+    line-height: 1;
+    padding-bottom: 0.45rem;
+    padding-top: 0.45rem;
+  }
+
+  .skill-chip-icon {
+    align-items: center;
+    display: inline-flex;
+    height: 1rem;
+    justify-content: center;
+    width: 1rem;
+  }
+
+  .skill-chip-text {
+    letter-spacing: 0.01em;
+  }
+
+  .timeline-node {
+    background-color: rgb(125 211 252);
+    border: 2px solid rgb(226 232 240);
+    border-radius: 9999px;
+    box-shadow: 0 0 0 5px rgb(14 165 233 / 0.2);
+    height: 0.875rem;
+    left: -1.94rem;
+    position: absolute;
+    top: 1.65rem;
+    width: 0.875rem;
+  }
+
+  .timeline-connector {
+    background-color: rgb(186 230 253 / 0.55);
+    height: calc(100% + 1.5rem);
+    left: -1.56rem;
+    position: absolute;
+    top: 2.55rem;
+    width: 1px;
+  }
+
+  .icon-link {
+    border: 1px solid rgb(148 163 184 / 0.3);
+    border-radius: 0.375rem;
+    color: rgb(203 213 225);
+    display: inline-block;
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    transition: border-color 160ms ease, color 160ms ease;
+  }
+
+  .icon-link:hover {
+    border-color: rgb(125 211 252 / 0.5);
+    color: rgb(186 230 253);
+  }
+}

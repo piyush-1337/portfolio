@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" fill="none">
+  <rect width="1280" height="720" fill="#0D1020"/>
+  <rect x="56" y="56" width="1168" height="608" rx="28" fill="#1F2648" stroke="#F59E0B" stroke-opacity="0.45"/>
+  <text x="94" y="188" fill="#FFF5DF" font-size="66" font-family="sans-serif" font-weight="700">LegalEase</text>
+  <text x="94" y="266" fill="#C8BCA5" font-size="34" font-family="sans-serif">Flutter + FastAPI app with RAG-powered legal assistant</text>
+</svg>

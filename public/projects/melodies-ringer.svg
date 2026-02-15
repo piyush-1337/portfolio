@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" fill="none">
+  <rect width="1280" height="720" fill="#0B1220"/>
+  <rect x="60" y="60" width="1160" height="600" rx="28" fill="#13203A" stroke="#4BA3D4" stroke-opacity="0.4"/>
+  <text x="96" y="190" fill="#D6E6FF" font-size="64" font-family="sans-serif" font-weight="700">Melodies Ringer</text>
+  <text x="96" y="270" fill="#94A3B8" font-size="36" font-family="sans-serif">Android audio utility project preview</text>
+</svg>

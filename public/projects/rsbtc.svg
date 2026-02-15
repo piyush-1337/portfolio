@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" fill="none">
+  <rect width="1280" height="720" fill="#0B1020"/>
+  <rect x="56" y="56" width="1168" height="608" rx="28" fill="#1A2242" stroke="#A78BFA" stroke-opacity="0.45"/>
+  <text x="94" y="188" fill="#EEF0FF" font-size="66" font-family="sans-serif" font-weight="700">rsbtc</text>
+  <text x="94" y="266" fill="#A9B0CC" font-size="34" font-family="sans-serif">Rust blockchain workspace: node, miner, wallet</text>
+</svg>
