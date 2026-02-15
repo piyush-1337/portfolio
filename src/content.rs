@@ -80,7 +80,7 @@ pub struct ProjectEntry {
 pub const PROFILE: ProfileData = ProfileData {
     title: "Hi, I'm Piyush",
     description: "Full Stack Developer",
-    summary: "I build robust systems focused on networking, distributed architecture, and low-level performance with Rust and modern backend tooling.",
+    summary: "I build robust systems focused on networking, distributed architecture, and modern backend tooling.",
     email: "piyushkatkar9421@gmail.com",
     github: "https://github.com/piyush-1337",
     linkedin: "https://www.linkedin.com/in/piyush-katkar-a59997335/",
